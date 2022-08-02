@@ -3,10 +3,8 @@ import "hardhat-gas-reporter";
 import "dotenv";
 import "@nomiclabs/hardhat-waffle";
 import "@nomiclabs/hardhat-etherscan";
-import "solidity-coverage";
 import "@typechain/hardhat";
 import "@nomiclabs/hardhat-ethers";
-import "./tasks";
 import 'hardhat-deploy';
 import "@openzeppelin/hardhat-upgrades";
 
