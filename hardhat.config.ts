@@ -49,16 +49,6 @@ module.exports = {
       url: `https://rinkeby.infura.io/v3/${process.env.INFURA_KEY}`,
       accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
-    mumbai: {
-      url: "https://polygon-mumbai.g.alchemy.com/v2/xwGYkQ0PNUKcm4JG4Zg1dTx2sbEF81vh",
-      chainId: 80001,
-      accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
-    },
-    polygon: {
-      url: "https://polygon-mainnet.g.alchemy.com/v2/mmAWeNGJjtvISsTT4drie6C5Z500GrLD",
-      chainId: 137,
-      accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
-    },
     bsc: {
       url: "https://bscrpc.com",
       chainId: 56,
